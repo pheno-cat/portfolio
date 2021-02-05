@@ -1,0 +1,81 @@
+body {
+  background-color: black;
+}
+
+h3 {
+  font-family: "Major Mono Display", monospace;
+}
+
+hr {
+  color: white;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.fab {
+  border: 1px solid rgba(204, 15, 115);
+  border-radius: 5px;
+  transition: all 200ms ease-in-out;
+}
+
+.fab:hover {
+  cursor: pointer;
+  background-color: rgba(204, 15, 115);
+}
+
+.port-pic {
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(204, 15, 115);
+}
+
+.navbar-brand {
+  font-family: "Major Mono Display", monospace;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  font-size: 40px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+  color: black;
+  text-align: center;
+  font-family: "Major Mono Display", monospace;
+  padding-top: 20px;
+}
+
+.content {
+  color: white;
+}
+
+.description {
+  font-family: "Montserrat", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(204, 15, 115);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #751349;
+}
