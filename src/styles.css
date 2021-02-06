@@ -10,6 +10,25 @@ hr {
   color: white;
 }
 
+a {
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+
+a:hover {
+  background-color: rgba(204, 15, 115);
+  color: white;
+}
+
+.aboutme-heading {
+  font-family: "Major Mono Display", monospace;
+}
+
+.contact {
+  font-family: "Major Mono Display", monospace;
+  color: white;
+}
+
 .container {
   margin: 0 auto;
   text-align: center;
@@ -28,7 +47,7 @@ hr {
 
 .port-pic {
   border-radius: 10px;
-  box-shadow: 5px 5px 5px rgba(204, 15, 115);
+  box-shadow: 5px 5px 1px rgba(204, 15, 115);
 }
 
 .navbar-brand {
@@ -37,6 +56,11 @@ hr {
   margin: 0 auto;
   display: block;
   font-size: 40px;
+  transition: all 200ms ease-in-out;
+}
+
+.navbar-brand:hover {
+  background-color: white;
 }
 
 .footer {
@@ -59,8 +83,16 @@ hr {
   font-family: "Montserrat", sans-serif;
 }
 
+.headshot {
+  float: left;
+}
+
+.aboutme {
+  color: white;
+}
+
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 5px;
 }
 
 /* Track */
