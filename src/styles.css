@@ -72,7 +72,7 @@ a:hover {
   display: block;
   font-size: 40px;
   transition: all 200ms ease-in-out;
-  font-size: 5vw;
+  font-size: 2.5vw;
 }
 
 .navbar-brand:hover {
@@ -225,17 +225,4 @@ a:hover {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: rgba(204, 15, 115);
-}
-
-@media screen and (min-width: 601px) {
-  div.example {
-    font-size: 40px;
-  }
-}
-
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 600px) {
-  div.example {
-    font-size: 10px;
-  }
 }
