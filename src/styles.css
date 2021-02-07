@@ -41,13 +41,15 @@ a:hover {
   padding-top: 50px;
 }
 
-.fab {
+.fab,
+.far {
   border: 1px solid rgba(204, 15, 115);
   border-radius: 5px;
   transition: all 200ms ease-in-out;
 }
 
-.fab:hover {
+.fab:hover,
+.far:hover {
   cursor: pointer;
   background-color: rgba(204, 15, 115);
 }
@@ -94,7 +96,9 @@ a:hover {
   float: left;
   border-radius: 80px;
   box-shadow: 5px 5px 5px rgba(204, 15, 115);
-  margin: 10px;
+  margin: 30px;
+  max-width: 200px;
+  height: auto;
 }
 
 .clearfix {
@@ -112,6 +116,7 @@ a:hover {
   border: 1px solid rgba(204, 15, 115);
   padding: 50px;
   border-radius: 30px;
+  text-align: left;
 }
 
 ::-webkit-scrollbar {
