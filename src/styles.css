@@ -12,7 +12,6 @@ h4 {
 h2 {
   margin-top: 30px;
   margin-bottom: 0;
-  text-align: left;
 }
 
 hr {
@@ -73,6 +72,7 @@ a:hover {
   display: block;
   font-size: 40px;
   transition: all 200ms ease-in-out;
+  font-size: 5vw;
 }
 
 .navbar-brand:hover {
@@ -104,8 +104,10 @@ a:hover {
   border-radius: 80px;
   box-shadow: 5px 5px 5px rgba(204, 15, 115);
   margin: 30px;
+  margin-left: 0;
   max-width: 200px;
   height: auto;
+  width: 100%;
 }
 
 .clearfix {
@@ -223,4 +225,17 @@ a:hover {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: rgba(204, 15, 115);
+}
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 40px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 10px;
+  }
 }
