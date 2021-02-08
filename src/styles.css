@@ -2,16 +2,18 @@ body {
   background-color: black;
 }
 
-h2,
 h3,
 h4 {
   font-family: "Major Mono Display", monospace;
   color: white;
 }
 
-h2 {
-  margin-top: 30px;
+marquee {
+  margin-top: 40px;
   margin-bottom: 0;
+  font-family: "Major Mono Display", monospace;
+  color: white;
+  font-size: 30px;
 }
 
 hr {
@@ -121,7 +123,7 @@ a:hover {
 }
 
 .blurb {
-  margin: 50px;
+  margin: 10px 50px;
   border: 1px solid rgba(204, 15, 115);
   padding: 50px;
   border-radius: 30px;
