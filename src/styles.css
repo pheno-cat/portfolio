@@ -103,7 +103,7 @@ a:hover {
 .headshot {
   float: left;
   border-radius: 80px;
-  box-shadow: 5px 5px 5px rgba(204, 15, 115);
+  box-shadow: 5px 5px rgba(204, 15, 115);
   margin: 30px;
   margin-left: 0;
   max-width: 200px;
