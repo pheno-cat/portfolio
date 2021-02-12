@@ -1,0 +1,260 @@
+body {
+  background-color: white;
+}
+
+h3,
+h4 {
+  font-family: "Major Mono Display", monospace;
+  color: black;
+}
+
+h1 {
+  margin-top: 40px;
+  margin-bottom: 0;
+  font-family: "Major Mono Display", monospace;
+  color: black;
+  font-size: 30px;
+}
+
+hr {
+  color: black;
+}
+
+a {
+  color: black;
+  transition: all 200ms ease-in-out;
+}
+
+a:hover {
+  background-color: rgba(204, 15, 115);
+  color: black;
+}
+
+.aboutme-heading {
+  font-family: "Major Mono Display", monospace;
+}
+
+.contact {
+  font-family: "Major Mono Display", monospace;
+  color: black;
+}
+
+.container-fluid {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.fab,
+.far {
+  border: 1px solid rgba(204, 15, 115);
+  border-radius: 5px;
+  transition: all 200ms ease-in-out;
+}
+
+.fab:hover,
+.far:hover {
+  cursor: pointer;
+  background-color: rgba(204, 15, 115);
+}
+
+.port-pic {
+  border-radius: 10px;
+  box-shadow: 5px 5px 1px rgba(204, 15, 115);
+}
+
+.navbar-brand {
+  font-family: "Major Mono Display", monospace;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  transition: all 200ms ease-in-out;
+  font-size: 3.5vw;
+}
+
+.navbar-brand:hover {
+  background-color: white;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+  color: black;
+  text-align: center;
+  font-family: "Major Mono Display", monospace;
+  padding-top: 20px;
+}
+
+.content {
+  color: black;
+}
+
+.description {
+  font-family: "Montserrat", sans-serif;
+}
+
+.headshot {
+  float: left;
+  border-radius: 80px;
+  box-shadow: 5px 5px rgba(204, 15, 115);
+  margin: 30px;
+  margin-left: 0;
+  max-width: 200px;
+  height: auto;
+  width: 100%;
+}
+
+.clearfix {
+  overflow: auto;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+
+.aboutme {
+  color: black;
+}
+
+.blurb {
+  margin: 10px 50px 30px;
+  border: 1px solid rgba(204, 15, 115);
+  padding: 50px;
+  border-radius: 30px;
+  text-align: left;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(204, 15, 115);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #751349;
+}
+
+/* ABOUT ME PAGE */
+
+.aboutme-body {
+  height: 100%;
+}
+
+.quote {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  color: black;
+  font-weight: bold;
+  border: 2px solid rgba(204, 15, 115);
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #f8f9fa;
+  color: white;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  transition: all 200ms ease-in-out;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition: all 200ms ease-in-out;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: rgba(204, 15, 115);
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  80% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  80% {
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
